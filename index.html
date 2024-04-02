@@ -15,11 +15,13 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="testimonial.css" />
     <!-- bootsrap  -->
 
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+  "
     />
   </head>
   <body>
@@ -262,209 +264,145 @@
           </div>
         </div>
       </section>
-      <section class="testimonials">
-        <h2>Testimonials</h2>
-        <div
-          class="carousel slide carousel-dark"
-          id="carouselDemo"
-          data-bs-wrap="true"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div
-              class="carousel-item active"
-              class="w-100"
-              data-bs-interval="1000"
-            >
-              <div class="carousel-caption"></div>
-              <p class="caorusel-txt-element">
-                ‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet
-                quam. Mauris accumsan felis fermentum euismod egestas. Mauris
-                ante augue, cursus sit amet arcu a, maximus suscipit nibh.
-                Integer vel nibh tellus. Pellentesque in risus non dui venenatis
-                sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at
-                molestie odio accumsan non. Pellentesque ma’’isl mi, at molestie
-                odio accumsan non. Pellentesque ma’’
-              </p>
-            </div>
-            <div class="carousel-item item-c" data-bs-interval="3000">
-              <div class="carousel-caption"></div>
-              <p class="caorusel-txt-element">
-                ‘’Donec nibh magna, interdum quis massa sed, rhoncus quam.
-                Mauris accumsan felis fermentum euismod egestas. Mauris ante
-                augue, cursus sit amet arcu a, maximus suscipit nibh. Integer
-                vel nibh tellus. Pellentesque in risus non dui venenatis
-                sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at
-                molestie odio accumsan non. Pellentesque ma’’
-              </p>
-            </div>
-            <div class="carousel-item item-c" data-bs-interval="2000">
-              <div class="carousel-caption"></div>
-              <p class="caorusel-txt-element">
-                ‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet
-                quam. Mauris accumsan felis fermentum euismod egestas. Mauris
-                ante augue, cursus sit amet arcu a, maximus suscipit nibh.
-                Integer vel nibh tellus. Pellentesque in risus non dui venenatis
-                sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at
-                molestie odio accumsan non. Pellentesque ma’’
-              </p>
-            </div>
-          </div>
-          <button
-            class="btn btn-warning prev-btn-yellow"
-            type="button"
-            data-bs-target="#carouselDemo"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon"></span>
-          </button>
-          <button
-            class="btn btn-warning next-btn-yellow"
-            type="button"
-            data-bs-target="#carouselDemo"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon"></span>
-          </button>
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselDemo"
-              data-bs-slide-to="0"
-            >
-              <div class="indicators-cont" id="indicator-0">
-                <img src="images/person1.png" />
-                <h4>Muhhamed Ali</h4>
-                <p>CEO, Co-Founder, XYZ Inc.</p>
+      <section class="testimonial-section">
+        <div class="testimonia-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm 12">
+                <div class="section-header text-center">
+                  <h4>Testimonials</h4>
+                  <!-- <h2>What happy clients says</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                  eius fuga placeat dignissimos rerum? Modi enim in aut maxime
+                  itaque similique quis ad at adipisci, sint illum? Officia, omnis
+                  fugit.
+                </p> -->
+                </div>
               </div>
-            </button>
-            <button
-              type="button"
-              class="active"
-              data-bs-target="#carouselDemo"
-              data-bs-slide-to="1"
-            >
-              <div class="indicators-cont" id="indicator-1">
-                <img src="images/person1.png" />
-                <h4>Mahmud Ali</h4>
-                <p>CEO, Co-Founder, XYZ Inc.</p>
+              <div class="col-sm-12">
+                <div
+                  id="carouselExampleIndicators"
+                  class="carousel slide"
+                  data-ride="carousel"
+                >
+                  <ol class="carousel-indicators">
+                    <li
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></li>
+                    <li
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></li>
+                    <li
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="icon-area">
+                        <p>
+                          ‘’Donec nibh magna, interdum quis massa sed, rhoncus
+                          laoreet quam. Mauris accumsan felis fermentum euismod
+                          egestas. Mauris ante augue, cursus sit amet arcu a,
+                          maximus suscipit nibh. Integer vel nibh tellus.
+                          Pellentesque in risus non dui venenatis sollicitudin
+                          sed vitae diam. Fusce tincidunt nisl mi, at molestie
+                          odio accumsan non. Pellentesque ma’’
+                        </p>
+                      </div>
+                      <div class="content text-center">
+                        <div class="person">
+                          <img src="/images/person1.png" alt="" />
+                        </div>
+                        <h5>Zain Bin Noor</h5>
+                        <h6>CEO, Co-Founder, XYZ Inc.</h6>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="icon-area">
+                        <p>
+                          printer took a galley of type and scrambled it to make
+                          a type specimen book. It has survived not only five
+                          centuries, but also the leap into electronic
+                          typesetting, remaining essentially unchanged. It was
+                          popularised in the 1960s with the release of Letraset
+                          sheets containing Lorem Ipsum passages, and more
+                          recently with desktop publishing software like Aldus
+                          PageMaker including versions of Lorem Ipsum..
+                        </p>
+                      </div>
+                      <div class="content text-center">
+                        <div class="person">
+                          <img src="/images/person1.png" alt="" />
+                        </div>
+                        <h5>David Jones 2</h5>
+                        <h6>Web Developer</h6>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="icon-area">
+                        <p>
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo consequat. Duis aute irure dolor in
+                          reprehenderit in voluptate velit esse cillum dolore eu
+                          fugiat nulla pariatur. Excepteur sint occaecat
+                          cupidatat non proident, sunt in culpa qui officia
+                          deserunt mollit anim id est laborum."
+                        </p>
+                      </div>
+                      <div class="content text-center">
+                        <div class="person">
+                          <img src="/images/person1.png" alt="" />
+                        </div>
+                        <h5>Chandler Bing</h5>
+                        <h6>The main actor</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon black-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
               </div>
-            </button>
-
-            <button
-              type="button"
-              data-bs-target="#carouselDemo"
-              data-bs-slide-to="2"
-            >
-              <div class="indicators-cont" id="indicator-2">
-                <img src="images/person1.png" />
-                <h4>Zain Bin Noor</h4>
-                <p>CEO, Co-Founder, XYZ Inc.</p>
-              </div>
-            </button>
+            </div>
           </div>
         </div>
       </section>
-      <!-- <section class="testimonial">
-        <div class="row">
-          <div class="col-12 d-flex align-items-center justify-content-center">
-            <h2 class="section-heading">Testimonial</h2>
-          </div>
-        </div>
-        <div class="container">
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              >
-                <div class="indicators-cont" id="indicator-0">
-                  <img src="images/person1.png" />
-                  <h4>Zain Bin Noor</h4>
-                  <p>CEO, Co-Founder, XYZ Inc.</p>
-                </div>
-              </button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="2"
-                aria-label="Slide 2"
-              >
-                <div class="indicators-cont" id="indicator-1">
-                  <img src="images/person1.png" />
-                  <h4>Zain Bin Noor</h4>
-                  <p>CEO, Co-Founder, XYZ Inc.</p>
-                </div>
-              </button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              >
-                <div class="indicators-cont" id="indicator-2">
-                  <img src="images/person1.png" />
-                  <h4>Zain Bin Noor</h4>
-                  <p>CEO, Co-Founder, XYZ Inc.</p>
-                </div>
-              </button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="carousel-caption">
-                  <h5>
-                    ‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet
-                    quam. Mauris accumsan felis fermentum euismod egestas.
-                    Mauris ante augue, cursus sit amet arcu a, maximus suscipit
-                    nibh. Integer vel nibh tellus. Pellentesque in risus non dui
-                    venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl
-                    mi, at molestie odio accumsan non. Pellentesque ma’’
-                  </h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel-caption">
-                  <h5>aaaa</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel-caption">
-                  <h5>ddd</h5>
-                </div>
-              </div>
-            </div>
-            <button
-              class="btn btn-warning prev-btn-yellow"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="btn btn-warning next-btn-yellow"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </section> -->
-
       <section class="recently-blog">
         <div class="blog-headers">
           <h2>Recently Blog</h2>
@@ -546,9 +484,14 @@
       </p>
     </footer>
     <!-- bootsrap links -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+  "></script>
     <!-- javascipt -->
     <script src="app.js"></script>
   </body>

@@ -234,6 +234,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 49px;
 }
 .chair-choice > div {
@@ -354,7 +355,6 @@ main {
   flex-direction: column;
   padding: 133px 199px 0 153px;
   gap: 106px;
-  flex-wrap: wrap;
 }
 
 .blog-headers {

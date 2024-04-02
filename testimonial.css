@@ -1,10 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
+.testimonial-section {
+  margin-top: 115px;
 }
-
+.testimonial-area {
+  width: 100% !important;
+}
 .carousel-indicators {
-  bottom: -80px !important; /* Adjust as needed */
+  bottom: -80px !important;
 }
 .section-header h4 {
   font-size: 34px;
@@ -56,16 +57,25 @@
   width: 58px !important;
   height: 54.57px !important;
   border-radius: 50%;
-  background-color: rgba(255, 215, 72, 1);
+  background-color: rgba(106, 106, 106, 1) !important;
   position: absolute;
+  transition: all 0.4s ease;
 }
 
+.carousel-control-next-icon:hover,
+.carousel-control-prev-icon:hover {
+  background-color: rgba(255, 215, 72, 1) !important;
+}
 .carousel-control-prev-icon {
-  left: -30%;
   top: 10%;
+  background-image: url("images/Vector (2).svg") !important;
+  background-size: 8px !important;
+  align-items: flex-start;
 }
 
 .carousel-control-next-icon {
-  right: -30%;
   top: 10%;
+  background-image: url("images/Vector (1).svg") !important;
+  background-size: 8px !important;
+  align-items: flex-end;
 }

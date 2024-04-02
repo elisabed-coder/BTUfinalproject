@@ -5,10 +5,254 @@
   #menu-icon {
     display: block;
   }
+  .couch-img {
+    width: 95%;
+  }
+  header .main-headers {
+    padding-left: 35px;
+    align-items: center;
+    margin-top: 109px;
+    padding-bottom: 20px;
+  }
+  header .main-headers h1 {
+    font-size: 45px;
+    max-width: 900px;
+    text-align: center;
+  }
+  .header-buttons {
+    justify-content: center;
+  }
+  .explore-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .explore-section h2,
+  .explore-section p {
+    max-width: none;
+    text-align: center;
+  }
+  .chair-catalog {
+    gap: 32px;
+  }
+  .content-wrapper {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .interior-design-section {
+    padding: 0px 35px;
+  }
+  .interior-imgs {
+    padding-left: 35px;
+  }
+  .chair-choice-section {
+    margin-top: 80px;
+  }
+  .recently-blog {
+    padding: 133px 100px 0 35px;
+    gap: 80px;
+  }
+  .icon-area p {
+    font-size: 16px;
+    width: 85% !important;
+  }
+  .carousel-control-prev-icon {
+    margin-left: -90% !important;
+  }
+
+  .carousel-control-next-icon {
+    margin-right: -90% !important;
+  }
 }
 
+@media (max-width: 950px) {
+  .why-choose-us-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .why-choose-us-reasons {
+    justify-content: space-evenly;
+  }
+  .why-choose-us-container h2,
+  .why-choose-us-container p,
+  .why-choose-us-container h5 {
+    text-align: center;
+  }
+  .why-choose-us-container > div > p {
+    max-width: none;
+  }
+  .why-choose-us-box {
+    align-self: center;
+  }
+  .interior-design-section {
+    flex-direction: column-reverse;
+  }
+  .interior-design-headers {
+    text-align: center;
+    align-items: center;
+  }
+  .interior-design-headers h2,
+  .interior-design-headers p {
+    max-width: none;
+  }
+  .interior-imgs {
+    width: 100%;
+  }
+
+  .group-img {
+    max-width: 100%;
+  }
+  #img2 {
+    height: 45%;
+    width: auto;
+    margin-left: 0;
+  }
+  .interior-imgs img {
+    max-width: 90%; /* Limit image scaling on tablets */
+    height: auto;
+  }
+  .chair-choice-section {
+    margin-top: 150px;
+  }
+  .chair-choice h4 {
+    font-size: 18px;
+  }
+  .blog-boxes {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 35px 0 35px;
+  }
+  .sofa-img {
+    right: 0;
+  }
+  footer > p {
+    position: relative;
+    z-index: 5;
+  }
+  /* .footer-logo,
+  .footer-container {
+  } */
+  .footer-logo {
+    padding-left: 35px;
+  }
+}
+
+@media (max-width: 725px) {
+  .couch-img {
+    display: none;
+  }
+  header {
+    background-image: url("images/couch 1.png");
+    background-position: bottom;
+    background-size: 80%;
+  }
+  .dotted {
+    width: 30%;
+  }
+  .chair-catalog {
+    gap: 100px;
+  }
+  .interior-imgs {
+    padding: 0px;
+  }
+  #img1 {
+    width: 100%;
+  }
+  .chair-choice {
+    gap: 20px;
+  }
+
+  .recently-blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-logo {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* .footer-container {
+    margin-left: 35px;
+  } */
+  .footer-container {
+    margin-left: 0;
+  }
+  .footer-container > div {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-left: 5px;
+  }
+  .footer-txt {
+    max-width: none;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .privacy-policy {
+    justify-content: space-around;
+    padding-right: 0;
+  }
+  .icon-area p {
+    font-size: 16px;
+    width: 75% !important;
+  }
+  .carousel-control-prev-icon {
+    margin-left: -80% !important;
+  }
+
+  .carousel-control-next-icon {
+    margin-right: -80% !important;
+  }
+  .copyright {
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 575px) {
+  .content p {
+    font-size: 14px !important;
+    width: 55% !important;
+  }
+  .carousel-control-prev-icon {
+    margin-left: -20% !important;
+  }
+
+  .carousel-control-next-icon {
+    margin-right: -20% !important;
+  }
+  .content {
+    margin-top: 320px !important;
+  }
+  .blog-boxes {
+    margin-left: 20px;
+  }
+}
 @media (max-width: 400px) {
   .side-bar {
     width: 100%;
+  }
+  header .main-headers h1 {
+    font-size: 40px;
+  }
+  .header-buttons button {
+    width: 140px;
+  }
+  .interior-imgs img {
+    max-width: 100%; /* Full-width images on mobile */
+    height: auto;
+  }
+  .blog-boxes {
+    padding: 40px 0px 0 0px;
+  }
+  .content {
+    margin-top: 420px !important;
   }
 }
