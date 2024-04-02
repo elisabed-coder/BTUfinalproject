@@ -45,9 +45,10 @@ header nav {
   font-size: 20px;
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
+  transition: all 0.4s ease;
 }
 .header-nav ul a:hover {
-  background-color: rgb(6, 47, 44);
+  color: rgb(6, 47, 44);
 }
 .header-icons {
   display: flex;
@@ -81,11 +82,20 @@ header nav {
 .shop-now-button {
   border: none;
   background-color: rgba(255, 215, 72, 1);
+  transition: all 0.4s ease;
+}
+.shop-now-button:hover {
+  background-color: rgb(255, 200, 0);
 }
 
 .explore-button {
   background-color: rgba(53, 115, 110, 1);
   border: 1px solid rgba(255, 255, 255, 1);
+  transition: all 0.4s ease;
+}
+.explore-button:hover {
+  background-color: rgb(18, 80, 75);
+  border: none;
 }
 
 .dotted {
